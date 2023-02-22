@@ -203,7 +203,6 @@
   .main-list {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 24px; */
     row-gap: 70px;
     column-gap: 24px;
   }
