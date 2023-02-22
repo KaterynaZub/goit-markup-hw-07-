@@ -834,8 +834,11 @@ textarea:focus {
   width: 24px;
   height: 24px;
   display: flex;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
+  background-color: var(--color-after-titet-footer);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .mobile-menu-open-icon {
   width: 15px;
@@ -854,10 +857,10 @@ textarea:focus {
 
   /* NAVY BLUE */
 
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .current-mobile {
-  color: #31d0aa;
+  color: var(--color-logo-web-btn);
 }
 .mobile-header-tel {
   font-family: "Roboto";
