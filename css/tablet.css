@@ -1,15 +1,10 @@
 @media screen and (min-width: 768px) {
   .container {
-    /* width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto; */
     width: 768px;
     padding: 0 15px;
     margin: 0 auto;
   }
   .header {
-    /* background-color: var(--color-white-ffff); */
     padding-top: 24px;
     padding-bottom: 10px;
   }
@@ -169,17 +164,30 @@
     color: var(--color-hover-focus);
   }
   /* hero */
-  .main-content-section1 {
+  .main-content-section1{
+    background: var(--title-text-color);
     text-align: center;
     padding-top: 112px;
     padding-bottom: 112px;
-    /* max-width: 1440px; */
-    /* background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office1.jpg); */
-  }
+    width: 100%;
+     background-repeat: no-repeat;
+  background-size: cover;
+     background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet.jpg); 
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .main-content-section1{
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),url(../images/tablet2.jpg);
+      }
+    }
   .main-title-first {
     max-width: 496px;
     margin-bottom: 40px;
@@ -231,6 +239,7 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     /* padding-bottom: 32px; */
+    max-width: 264px;
   }
   .main-list3 .main-card-3 {
     margin-bottom: 0;
@@ -271,3 +280,4 @@
     overflow-y: scroll;
   }
 }
+
