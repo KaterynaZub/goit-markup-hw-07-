@@ -253,7 +253,7 @@
     background-color: var(--color-hover-focus);
   }
 
-  .main-list. {
+  .main-list{
     color: var(--primary-text-color);
     display: flex;
     gap: 24px;
@@ -731,7 +731,6 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  background:;
   border: 1.25px solid var(--color-hover-focus);
   border-radius: 2px;
   margin-top: 16px;
